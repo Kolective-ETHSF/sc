@@ -6,7 +6,7 @@ import {MockToken} from "../src/MockToken.sol";
 import {TokenFactory} from "../src/TokenFactory.sol";
 import {Core} from "../src/Core.sol";
 import {console} from "../lib/forge-std/src/console.sol";
-import "../lib/openzeppelin-contracts-upgradeable/contracts/utils/math/Math.sol";
+import "@openzeppelin/contracts/utils/math/Math.sol";
 
 contract Deploy is Script {
     struct TokenInfo {
